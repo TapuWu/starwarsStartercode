@@ -7,9 +7,7 @@
 
 
 /* phone */
-body {
-  background-color: #e4e7ec;
-}
+
 
 
 
@@ -24,8 +22,12 @@ h1 {
 }
 /* computer */
 @media screen and (min-width: 600px) {
-.pic {flex-direction: column
-align-items: center;
-}
+
+body{ 
+  background-color: red;
 }
 
+.row2
+{ flex-direction: column;
+  align-images: center;}
+}
