@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Poller+One&display=swap");
 
-img {
-  align-self: center;
-}
-
-
-
-
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
@@ -24,15 +17,15 @@ h1 {
   font-family: "SF Distant Galaxy";
 }
 
-img {
- margin: -5px;
+
+.row2 {
+  display: flex;
+  justify-content: center;
 }
-
-
 /* computer */
 @media screen and (min-width: 600px) {
-
-
-
+.pic {flex-direction: column
+align-items: center;
+}
 }
 
