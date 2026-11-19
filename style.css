@@ -10,7 +10,12 @@
 @media screen and (max-width: 600px) {
 .row2
 { flex-direction: column;
-  align-images: center;}
+  align-images: center;
+}
+ nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 
@@ -27,5 +32,9 @@ h1 {
 /* computer */
 @media screen and (min-width: 600px) {
 
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
 
 }
