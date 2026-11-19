@@ -21,6 +21,8 @@
 h1 {
   font-family: "SF Distant Galaxy";
   color: #702f13;
+  display: flex;
+  justify-content: center;
 }
 body{
   background-color: #fb8c53;
