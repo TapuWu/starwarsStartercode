@@ -10,7 +10,7 @@
 @media screen and (max-width: 600px) {
 .row2
 { flex-direction: column;
-  align-images: center;
+  align-images: column;
 }
  nav {
     display: flex;
@@ -18,12 +18,13 @@
   }
 }
 
-
-
 h1 {
   font-family: "SF Distant Galaxy";
+  color: #702f13;
 }
-
+body{
+  background-color: #fb8c53;
+}
 
 .row2 {
   display: flex;
