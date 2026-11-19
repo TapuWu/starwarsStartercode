@@ -7,7 +7,11 @@
 
 
 /* phone */
-
+@media screen and (max-width: 600px) {
+.row2
+{ flex-direction: column;
+  align-images: center;}
+}
 
 
 
@@ -23,11 +27,5 @@ h1 {
 /* computer */
 @media screen and (min-width: 600px) {
 
-body{ 
-  background-color: red;
-}
 
-.row2
-{ flex-direction: column;
-  align-images: center;}
 }
